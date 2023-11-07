@@ -10,7 +10,7 @@ Step 4:Update the state estimate based on the measurement using kf.update(). </b
 Step 5:Store the estimated state in a list. </br>
 Step 6:Plot the true and estimated positions.</br>
 ## Program:
-```
+
 import numpy as np
 
 class KalmanFilter:
@@ -60,7 +60,6 @@ plt.plot([s[0] for s in true_states],label='true')
 plt.plot([s[0] for s in est_states],label='estimate')
 plt.legend
 plt.show()
-```
 
 ## Output:
 ![image](https://github.com/D-I-V-Y-A-S/Experiment-4---Implementation-of-Kalman-Filter/assets/141506417/93c1fd6f-1f33-436f-9aeb-3fd19bb9ca43)
